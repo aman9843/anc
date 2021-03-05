@@ -1,0 +1,169 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+}
+
+#col-header-description {
+    margin-top: 18%;
+}
+.header {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.534), black) , url(1.jpg);
+height: 750px;
+
+}
+
+#h1-header {
+    color: white;
+    margin-bottom: 1rem;
+}
+#h2-header {
+    color: aqua;
+    margin-bottom: 1rem;
+}
+#btn-header {
+    background-color: aqua;
+    margin-top: 1rem;
+    font-size: 24px;
+   
+}
+.line {
+    height: 5px;
+    background-color: aqua;
+}
+.about {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.534), black) , url(1.jpg);
+   padding-top: 100px;
+    
+    color: white;
+}
+#line-small {
+  
+    height: 5px;
+    background-color: aqua;
+    width: 80px;
+}
+#img-about {
+    margin-bottom: 100px;
+    border: 5px solid aqua;
+    border-radius:  10px;
+    
+}
+.img-craousel {
+    min-height: 700px;
+    max-height: 700px;
+}
+#h1-carousel {
+    position: absolute;
+    bottom: 300px;
+    left: 60px;
+    font-size: 105px;
+    color: white;
+}
+#h2-carousel {
+    position: absolute;
+    bottom: 150px;
+    left: 60px;
+    text-align: left;
+    font-size: 70px;
+    color: white;
+}
+.img-features {
+    max-height: 500px;
+   
+    border: 5px solid aqua;
+    border-radius:  10px;
+}
+#text-features {
+    font-style: italic;
+}
+.features {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.534), black) , url(1.jpg);
+   
+    color: white;
+    padding-bottom: 3rem;
+}
+.contant {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.534), black) , url(1.jpg);
+   
+    color: white;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='aqua' stroke='black'  viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  border-radius: 2px;
+  height: 150px;
+  width: 110px;
+  background-color: white;
+ 
+  
+}
+
+.carousel-control-prev-icon {
+    border-radius: 2px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='aqua' stroke='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    height: 150px;
+    width: 110px;
+    background-color: white;
+}
+
+#fab {
+    margin-top: 35px;
+    font-size: 60px;
+    margin-bottom: 35px;
+    color: aqua;
+}
+.counter-section {
+    padding-bottom: 30px;
+    font-size: 50px;
+    background-image: linear-gradient(to left, black, rgba(255, 255, 255, 0)) , url(https://images.wallpaperscraft.com/image/dumbbells_sports_gym_106546_2560x1080.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+#a-footer {
+    color: aqua;
+    font-size: 50px;
+}
+.footer {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.534), black) , url(1.jpg);
+  
+    
+}
+#footer {
+    
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.334), rgba(0, 0, 0, 0.534)) , url(https://st3.depositphotos.com/9527076/12784/i/950/depositphotos_127843960-stock-photo-fitness-or-bodybuilding-background-old.jpg);
+   
+    background-size: cover;
+}
+.fab  {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+#footer-span {
+   
+    font-size: 30px;
+    color: white;
+   
+}
+.btn-a {
+    color: aqua;
+}
+.edit1 {
+    margin-left: 120px;
+}
+.edit2 {
+    margin-left: 120px;
+}
+nav {
+    box-shadow: 0px 2px 2px 0px aqua;
+    font-size: 20px;
+transition: all .4s;
+    opacity: 0;
+}
+.actives {
+    border-bottom: 2px solid red;
+}

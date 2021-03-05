@@ -1,0 +1,106 @@
+@media (max-width: 575.98px) {
+    #col-header-description {
+        margin-top: -20px;
+    }
+    .img-craousel {
+        min-height: 300px;
+        max-height: 300px;
+    }
+    #h1-carousel {
+       display: none;
+        font-size: 25px;
+        color: white;
+    }
+    #h2-carousel {
+      
+        display: none;
+        text-align: left;
+        font-size: 20px;
+        color: white;
+    }
+    }
+    @media (min-width: 575.99px) and (max-width: 767.98px) {
+        #col-header-description {
+            margin-top: -20px;
+           
+        }
+        .img-craousel {
+            min-height: 400px;
+            max-height: 400px;
+        }
+        #h1-carousel {
+           display: none;
+            font-size: 25px;
+            color: white;
+        }
+        #h2-carousel {
+          
+            display: none;
+            text-align: left;
+            font-size: 20px;
+            color: white;
+        }
+    }
+    @media (min-width: 767.99px) and (max-width: 991.98px) {
+        #col-header-description {
+            margin-left: 0%;
+            margin-top: 20px;
+            width: 100%;
+           
+        }
+        #logo {
+            margin-top: 55px;
+            transform: scale(2.5);
+           margin-left: 55%;
+        }
+        .img-craousel {
+            min-height: 500px;
+            max-height: 500px;
+        }
+        #h1-carousel {
+            display: none;
+              position: absolute;
+              bottom: 200px;
+              left: 50px;
+              margin-left: -50px;
+                font-size: 75px;
+                color: white;
+            }
+            #h2-carousel {
+              display: none;
+               position: absolute;
+               bottom: 50px;
+               margin-left: -55px;
+                text-align: left;
+                font-size: 55px;
+                color: white;
+            }
+            .edit1 {
+                margin-left: 150px;
+            }
+        }
+        @media (min-width: 991.99px) and (max-width: 1199.98px) {
+            #logo {
+               margin-top: 15%;
+                transform: scale(1.2);
+              
+            }
+            #col-header-description {
+                margin-top: 200px;
+               transform: scale(1);
+               
+            }
+        }
+        @media (min-width: 0px)  {
+            #img-about {
+                min-width: 500px;
+                max-width:800px;
+            }
+            .img-features {
+                min-width: 100px;
+            }
+            body {
+                 overflow-x: hidden;
+            }
+        }
+        
